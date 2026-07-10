@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "category": "Mobile",
+    "price": "₹79999",
+     
+    "rating": 4.9,
+    "stock": 12,
+    "image": "https://rukminim1.flixcart.com/image/1536/1536/xif0q/mobile/s/t/g/-enriched-transparent-original-imahft5gqkxzyeqa.png?q=90"
+  },
+  {
+    "id": 2,
+    "name": "Samsung",
+    "category": "Mobile",
+    "price": "₹74999",
+
+    "rating": 4.8,
+    "stock": 18,
+    "image":"https://rukminim1.flixcart.com/image/1536/1536/xif0q/shopsy-mobile/a/f/x/-original-imahjzpcbshtapqx.jpeg?q=90"
+  },
+  {
+    "id": 3,
+    "name": "OnePlus",
+    "category": "Mobile",
+    "price": "₹54999",
+
+    "rating": 4.7,
+    "stock": 20,
+    "image": "https://rukminim1.flixcart.com/image/1536/1536/xif0q/mobile/z/w/f/nord-ce6-lite-oneplus-nord-ce6-lite-oneplus-original-imahn85tfyxwr36j.jpeg?q=90"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi",
+    "category": "Mobile",
+    "price": "₹32999",
+    
+    "rating": 4.6,
+    "stock": 25,
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/7/l/8/-original-imagqmtfgq7e4edm.jpeg?q=70"
+  },
+  {
+    "id": 5,
+    "name": "Realme",
+    "category": "Mobile",
+    "price": "₹24999",
+    
+    "rating": 4.5,
+    "stock": 30,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/4/0/-original-imahz7vnwjqmj7av.jpeg?q=70"
+  },
+  {
+    "id": 6,
+    "name": "Vivo",
+    "category": "Mobile",
+    "price": "₹28999",
+    
+    "rating": 4.5,
+    "stock": 22,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70"
+  },
+  {
+    "id": 7,
+    "name": "OPPO",
+    "category": "Mobile",
+    "price": "₹30999",
+  
+    "rating": 4.4,
+    "stock": 19,
+    "image": "https://rukminim1.flixcart.com/image/1536/1536/xif0q/mobile/m/t/n/-enriched-transparent-original-imahmkx5z6zzz3zp.png?q=90"
+  },
+  {
+    "id": 8,
+    "name": "Motorola",
+    "category": "Mobile",
+    "price": "₹27999",
+  
+    "rating": 4.5,
+    "stock": 16,
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/m/9/4/-enriched-transparent-original-imahh6yfjvvmjpur.png?q=70"
+  },
+  {
+    "id": 9,
+    "name": "Google",
+    "category": "Mobile",
+    "price": "₹69999",
+  
+    "rating": 4.8,
+    "stock": 10,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/r/q/-enriched-transparent-original-imahkq28mfjevrsg.png?q=70"
+  },
+
+  {
+    "id": 10,
+    "name": "Redmi",
+    "category": "Mobile",
+    "price": "₹79999",
+    
+    "rating": 4.9,
+    "stock": 12,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/x/v/a7-pro-5g-a7-pro-5g-redmi-original-imahmp4efv6ggcmr.jpeg?q=70"
+  },
+  {
+    "id": 11,
+    "name": "iQOO",
+    "category": "Mobile",
+    "price": "₹74999",
+     
+    "rating": 4.8,
+    "stock": 18,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/y/0/z10-lite-5g-i2409-iqoo-original-imahk2pqg6ys7rdt.jpeg?q=70"
+  },
+  {
+    "id": 12,
+    "name": "POCO",
+    "category": "Mobile",
+    "price": "₹54999",
+     
+    "rating": 4.7,
+    "stock": 20,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/g/n/-original-imahmqgabnzytsgk.jpeg?q=70"
+  },
+  {
+    "id": 13,
+    "name": "Honor",
+    "category": "Mobile",
+    "price": "₹32999",
+  
+    "rating": 4.6,
+    "stock": 25,
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/w/j/c/200-5g-eli-nx9-honor-original-imah3cpbzhdngwa3.jpeg?q=70"
+  },
+  {
+    "id": 14,
+    "name": "Samsung Galaxy S25 5G",
+    "category": "Mobile",
+    "price": "₹28999",
+  
+    "rating": 4.5,
+    "stock": 22,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/l/f/-original-imahggewrzzd5sad.jpeg?q=70"
+  },
+  {
+    "id": 15,
+    "name": "OPPO K14 ",
+    "category": "Mobile",
+    "price": "₹30999",
+  
+    "rating": 4.4,
+    "stock": 19,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/t/e/-original-imahmkv6h89gcyvb.jpeg?q=70"
+  },
+  {
+    "id": 16,
+    "name": "Motorola g57",
+    "category": "Mobile",
+    "price": "₹27999",
+  
+    "rating": 4.5,
+    "stock": 16,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/i/z/-original-imahnfuyuhxev7kh.jpeg?q=70"
+  }
+]

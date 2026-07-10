@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Laptops | ElectroMart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="laptop.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <a href="index.html" class="logo">Electro<span>Mart</span></a>
+            
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for TVs, laptops, smartphones...">
+                <button id="searchBtn">Search</button>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="nav-item">
+                    <span>👤</span>
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="nav-item">
+                    <span>❤️</span>
+                    <a href="wishlist.html" id="wishlistCount">Wishlist </a>
+                </div>
+                <div class="nav-item">
+                    <span>🛒</span>
+                    <a href="cart.html" id="cartCount">Cart </a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">All Products</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+<!---
+    <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=1200" alt="Gaming Laptop banner">
+                <div class="slide-content">
+                    <h2>Viper Stealth Gaming</h2>
+                    <p>Unmatched FPS power. Get 20% off this weekend.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200" alt="Work laptop banner">
+                <div class="slide-content">
+                    <h2>OfficePlus Productivity</h2>
+                    <p>Lightweight design, 18-hour battery lifecycle resilience.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=1200" alt="Creator laptop banner">
+                <div class="slide-content">
+                    <h2>BladeUltra Creator 16"</h2>
+                    <p>Stunning 4K display calibrated color spectrums for professionals.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+        <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+    </div>-->
+<div class="lap-hero">
+    <h2>Laptops</h2>
+    <img src="./banner-lap.png" class="lap-img">
+    </div>
+
+<section class="deals-section">
+    <h2>Deals of the Week</h2>
+    <div id="dealsContainer" class="deals-container"></div>
+</section>
+<script>
+    const deals = [
+
+{
+    brand:"Top Selling",
+    title:"Top Selling Laptops",
+    image:"https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+    oldPrice:"",
+    newPrice:"₹47,510*",
+    offer:"*Inclusive of all Offers"
+},
+
+{
+    brand:"ASUS",
+    title:"TUF A15",
+    image:"https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:300/U5ubMFBduu-asus-zenbook14-evo-laptop-494352119-i-1-1200wx1200h.jpeg",
+    oldPrice:"₹96,990",
+    newPrice:"₹77,410*",
+    offer:"*Inclusive of all Offers"
+},
+
+{
+    brand:"Lenovo",
+    title:"LOQ Gaming Laptop",
+    image:"https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500",
+    oldPrice:"₹1,17,490",
+    newPrice:"₹93,590*",
+    offer:"*Inclusive of all Offers"
+},
+
+{
+    brand:"ASUS",
+    title:"Vivobook 16",
+    image:"https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500",
+    oldPrice:"₹84,990",
+    newPrice:"₹58,105*",
+    offer:"*Inclusive of all Offers"
+}
+
+];
+
+const dealsContainer = document.getElementById("dealsContainer");
+
+deals.forEach(deal=>{
+
+    dealsContainer.innerHTML += `
+    <div class="deal-card">
+        <span class="brand">${deal.brand}</span>
+        <h3>${deal.title}</h3>
+        <img src="${deal.image}" alt="${deal.title}">
+        <div class="price">
+        ${
+            deal.oldPrice ? `<del>${deal.oldPrice}</del>` : ""
+        }
+        <strong>${deal.newPrice}</strong>
+        </div>
+        <p>${deal.offer}</p>
+    </div>`;
+
+});
+</script>
+
+    <main class="section-container">
+        <h2>Premium Laptop Catalog</h2>
+        <div class="product-grid" id="laptopGrid">
+            </div>
+            
+    </main>
+       <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ElectroMart</h3>
+                <p>Your one-stop destination for premium electronics and accessories.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ElectroMart. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="laptop.js" ></script>
+    
+    
+</body>
+</html>

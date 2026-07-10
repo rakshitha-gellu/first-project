@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung",
+    "category": "Television",
+    "price": "₹32999",
+    "originalPrice": 37999,
+    "rating": 4.6,
+    "stock": 15,
+    "image": "https://rukminim1.flixcart.com/image/1536/1536/xif0q/television/m/b/q/-original-imahz2f8ndhsb9r4.jpeg?q=90"
+  },
+  {
+    "id": 2,
+    "name": "LG",
+    "category": "Television",
+    "price": "₹42999",
+    "originalPrice": 47999,
+    "rating": 4.7,
+    "stock": 12,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/e/g/d/-original-imahz2d9hrtywscm.jpeg?q=70"
+  },
+  {
+    "id": 3,
+    "name": "Sony",
+    "category": "Television",
+    "price": "₹55999",
+    "originalPrice": 62999,
+    "rating": 4.8,
+    "stock": 8,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/p/g/5/-original-imahggetxjeguqga.jpeg?q=70"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi",
+    "category": "Television",
+    "price": "₹27999",
+    "originalPrice": 31999,
+    "rating": 4.5,
+    "stock": 20,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/p/n/p/-original-imahjph4qhhmxh2t.jpeg?q=70"
+  },
+  {
+    "id": 5,
+    "name": "OnePlus",
+    "category": "Television",
+    "price": "₹38999",
+    "originalPrice": 42999,
+    "rating": 4.6,
+    "stock": 17,
+    "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/television/i/m/0/-original-imah9ttkkjmahfs7.jpeg?q=90"
+  },
+  {
+    "id": 6,
+    "name": "TCL",
+    "category": "Television",
+    "price": "₹24999",
+    "originalPrice": 28999,
+    "rating": 4.4,
+    "stock": 18,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/g/i/z/-original-imahbchewrfy2eyd.jpeg?q=70"
+  },
+  {
+    "id": 7,
+    "name": "Hisense",
+    "category": "Television",
+    "price": "₹26999",
+    "originalPrice": 30999,
+    "rating": 4.4,
+    "stock": 14,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/q/v/x/-original-imahjf6yzjhe32ht.jpeg?q=70"
+  },
+  {
+    "id": 8,
+    "name": "Vu",
+    "category": "Television",
+    "price": "₹23999",
+    "originalPrice": 27999,
+    "rating": 4.3,
+    "stock": 22,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/5/r/o/-original-imahgucnyz2yuvx3.jpeg?q=70"
+  },
+  {
+    "id": 9,
+    "name": "Panasonic",
+    "category": "Television",
+    "price": "₹35999",
+    "originalPrice": 39999,
+    "rating": 4.5,
+    "stock": 11,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/g/p/g/-original-imahg2bt47tzvhcq.jpeg?q=70"
+  },
+  {
+    "id": 10,
+    "name": "Acer",
+    "category": "Television",
+    "price": "₹29999",
+    "originalPrice": 33999,
+    "rating": 4.3,
+    "stock": 19,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/e/u/g/-original-imahgj5xhvyf4xfb.jpeg?q=70"
+  },
+  {
+    "id": 11,
+    "name": "Kodak",
+    "category": "Television",
+    "price": "₹19999",
+    "originalPrice": 22999,
+    "rating": 4.2,
+    "stock": 24,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/z/c/b/-original-imahdxjtzazkzzbz.jpeg?q=70"
+  },
+  {
+    "id": 12,
+    "name": "Toshiba",
+    "category": "Television",
+    "price": "₹31999",
+    "originalPrice": 35999,
+    "rating": 4.4,
+    "stock": 16,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/h/x/4/-original-imahjf6yspvdkskf.jpeg?q=70"
+  },
+  {
+    "id": 13,
+    "name": "Samsung",
+    "category": "Television",
+    "price": "₹68999",
+    "originalPrice": 74999,
+    "rating": 4.8,
+    "stock": 7,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/k/x/6/-original-imahj8ydnwrzh4hd.jpeg?q=70"
+  },
+  {
+    "id": 14,
+    "name": "LG",
+    "category": "Television",
+    "price": "₹78999",
+    "originalPrice": 85999,
+    "rating": 4.9,
+    "stock": 5,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/5/j/2/-original-imahz2dbhnmrg2hn.jpeg?q=70"
+  },
+  {
+    "id": 15,
+    "name": "Sony",
+    "category": "Television",
+    "price": "₹89999",
+    "originalPrice": 96999,
+    "rating": 4.9,
+    "stock": 6,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/n/d/e/-original-imahcsfhfmxa5kwk.jpeg?q=70"
+  },
+  {
+    "id": 16,
+    "name": "Xiaomi",
+    "category": "Television",
+    "price": "₹35999",
+    "originalPrice": 39999,
+    "rating": 4.5,
+    "stock": 18,
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/television/h/y/t/-original-imahjph4zb2zagws.jpeg?q=70"
+  },
+  
+  {
+    "id": 17,
+    "name": "TCL",
+    "category": "Television",
+    "price": "₹41999",
+    "originalPrice": 46999,
+    "rating": 4.5,
+    "stock": 13,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/c/d/l/-original-imahmzdnuzcjxdny.jpeg?q=70"
+  },
+  {
+    "id": 18,
+    "name": "Hisense",
+    "category": "Television",
+    "price": "₹38999",
+    "originalPrice": 43999,
+    "rating": 4.4,
+    "stock": 9,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/t/f/r/-original-imahjf6zgcth2cjg.jpeg?q=70"
+  },
+  
+  {
+    "id": 19,
+    "name": "Realme",
+    "category": "Television",
+    "price": "₹34999",
+    "originalPrice": 38999,
+    "rating": 4.6,
+    "stock": 14,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/b/r/i/-original-imahdq4qzfqrncgn.jpeg?q=70"
+  },
+
+  {
+    "id": 20,
+    "name": "Panasonic",
+    "category": "Television",
+    "price": "₹37999",
+    "originalPrice": 41999,
+    "rating": 4.5,
+    "stock": 12,
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/m/a/i/-original-imahg2btftmdhzdg.jpeg?q=70"
+  }
+  
+]

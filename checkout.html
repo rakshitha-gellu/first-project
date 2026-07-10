@@ -1,0 +1,460 @@
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+
+.checkout-container{
+    width:700px;
+    margin:40px auto;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.checkout-container img{
+    width:220px;
+    display:block;
+    margin:auto;
+}
+
+.checkout-container h2,
+.checkout-container h3{
+    text-align:center;
+}
+
+.checkout-form{
+    margin-top:30px;
+}
+
+.checkout-form input,
+.checkout-form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.buy-now-btn{
+    width:100%;
+    padding:14px;
+    background:#0a74ff;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.buy-now-btn:hover{
+    background:#0056d2;
+}
+.hed{
+    text-align: center;
+}
+</style>
+
+</head>
+<body>
+  <h2 class="hed">Checkout</h2>
+<div id="checkout"></div>
+
+<script>
+
+const product = JSON.parse(localStorage.getItem("buyNowProduct"));
+
+if(product){
+
+document.getElementById("checkout").innerHTML=`
+
+<div class="checkout-container">
+
+<img src="${product.image}">
+
+<h2>${product.name}</h2>
+
+<h3>₹${product.price}</h3>
+
+<div class="checkout-form">
+
+<input type="text" id="name" placeholder="Full Name">
+
+<input type="tel" id="phone" placeholder="Phone Number">
+
+<input type="email" id="email" placeholder="Email">
+
+<textarea id="address" rows="4" placeholder="Full Address"></textarea>
+
+<input type="text" id="city" placeholder="City">
+
+<input type="text" id="state" placeholder="State">
+
+<input type="text" id="pincode" placeholder="Pincode">
+
+<button class="buy-now-btn" onclick="placeOrder()">
+Place Order
+</button>
+
+</div>
+
+</div>
+
+`;
+
+}
+
+function placeOrder(){
+
+const name=document.getElementById("name").value.trim();
+const phone=document.getElementById("phone").value.trim();
+const email=document.getElementById("email").value.trim();
+const address=document.getElementById("address").value.trim();
+const city=document.getElementById("city").value.trim();
+const state=document.getElementById("state").value.trim();
+const pincode=document.getElementById("pincode").value.trim();
+
+if(name==="" || phone==="" || email==="" || address==="" || city==="" || state==="" || pincode===""){
+    alert("Please fill all address details.");
+    return;
+}
+
+const order={
+    product,
+    customer:{
+        name,
+        phone,
+        email,
+        address,
+        city,
+        state,
+        pincode
+    },
+    orderDate:new Date().toLocaleString()
+};
+
+localStorage.setItem("lastOrder",JSON.stringify(order));
+
+localStorage.removeItem("buyNowProduct");
+
+alert("🎉 Order Placed Successfully!");
+
+window.location.href="index.html";
+
+}
+
+</script>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+.hed{
+    text-align:center;
+    margin-top:20px;
+}
+
+.checkout-container{
+    width:700px;
+    margin:30px auto;
+    padding:20px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.checkout-container img{
+    width:220px;
+    display:block;
+    margin:auto;
+}
+
+.checkout-container h2,
+.checkout-container h3{
+    text-align:center;
+}
+
+.checkout-form{
+    margin-top:20px;
+}
+
+.checkout-form input,
+.checkout-form textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.payment-box{
+    margin-top:20px;
+}
+
+.payment-box h3{
+    text-align:left;
+}
+
+.payment-box label{
+    display:block;
+    margin:10px 0;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.payment-box input[type="radio"]{
+    width:auto;
+    margin-right:10px;
+}
+
+#upiBox,
+#cardBox{
+    display:none;
+}
+
+.buy-now-btn{
+    width:100%;
+    padding:14px;
+    margin-top:20px;
+    background:#0a74ff;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.buy-now-btn:hover{
+    background:#0056d2;
+}
+
+</style>
+
+</head>
+<body>
+
+<h2 class="hed">Checkout</h2>
+
+<div id="checkout"></div>
+
+<script>
+
+const product = JSON.parse(localStorage.getItem("buyNowProduct"));
+
+if(product){
+
+document.getElementById("checkout").innerHTML=`
+
+<div class="checkout-container">
+
+<img src="${product.image}">
+
+<h2>${product.name}</h2>
+
+<h3>₹${product.price}</h3>
+
+<div class="checkout-form">
+
+<input type="text" id="name" placeholder="Full Name">
+
+<input type="tel" id="phone" placeholder="Phone Number">
+
+<input type="email" id="email" placeholder="Email">
+
+<textarea id="address" rows="4" placeholder="Full Address"></textarea>
+
+<input type="text" id="city" placeholder="City">
+
+<input type="text" id="state" placeholder="State">
+
+<input type="text" id="pincode" placeholder="Pincode">
+
+
+<div class="payment-box">
+
+<h3>Payment Method</h3>
+
+<label>
+<input type="radio" name="payment" value="Cash on Delivery">
+Cash on Delivery
+</label>
+
+<label>
+<input type="radio" name="payment" value="UPI">
+UPI
+</label>
+
+<div id="upiBox">
+<input type="text" id="upiId" placeholder="Enter UPI ID">
+</div>
+
+<label>
+<input type="radio" name="payment" value="Credit/Debit Card">
+Credit / Debit Card
+</label>
+
+<div id="cardBox">
+
+<input type="text" id="cardNumber" placeholder="Card Number">
+
+<input type="text" id="cardName" placeholder="Card Holder Name">
+
+<input type="text" id="expiry" placeholder="MM/YY">
+
+<input type="password" id="cvv" placeholder="CVV">
+
+</div>
+
+<label>
+<input type="radio" name="payment" value="Net Banking">
+Net Banking
+</label>
+
+</div>
+
+<button class="buy-now-btn" onclick="placeOrder()">
+Place Order
+</button>
+
+</div>
+
+</div>
+
+`;
+
+setupPaymentOptions();
+
+}
+
+function setupPaymentOptions(){
+
+const radios=document.querySelectorAll('input[name="payment"]');
+
+radios.forEach(radio=>{
+
+radio.addEventListener("change",function(){
+
+document.getElementById("upiBox").style.display="none";
+document.getElementById("cardBox").style.display="none";
+
+if(this.value==="UPI"){
+document.getElementById("upiBox").style.display="block";
+}
+
+if(this.value==="Credit/Debit Card"){
+document.getElementById("cardBox").style.display="block";
+}
+
+});
+
+});
+
+}
+
+function placeOrder(){
+
+const name=document.getElementById("name").value.trim();
+const phone=document.getElementById("phone").value.trim();
+const email=document.getElementById("email").value.trim();
+const address=document.getElementById("address").value.trim();
+const city=document.getElementById("city").value.trim();
+const state=document.getElementById("state").value.trim();
+const pincode=document.getElementById("pincode").value.trim();
+
+const payment=document.querySelector('input[name="payment"]:checked');
+
+if(name==="" || phone==="" || email==="" || address==="" || city==="" || state==="" || pincode===""){
+alert("Please fill all address details.");
+return;
+}
+
+if(!payment){
+alert("Please select a payment method.");
+return;
+}
+
+if(payment.value==="UPI"){
+
+const upi=document.getElementById("upiId").value.trim();
+
+if(upi===""){
+alert("Please enter your UPI ID.");
+return;
+}
+
+}
+
+if(payment.value==="Credit/Debit Card"){
+
+const card=document.getElementById("cardNumber").value.trim();
+const holder=document.getElementById("cardName").value.trim();
+const expiry=document.getElementById("expiry").value.trim();
+const cvv=document.getElementById("cvv").value.trim();
+
+if(card==="" || holder==="" || expiry==="" || cvv===""){
+alert("Please fill all card details.");
+return;
+}
+
+}
+
+const order={
+
+product,
+
+customer:{
+name,
+phone,
+email,
+address,
+city,
+state,
+pincode
+},
+
+paymentMethod:payment.value,
+
+orderDate:new Date().toLocaleString()
+
+};
+
+localStorage.setItem("lastOrder",JSON.stringify(order));
+
+localStorage.removeItem("buyNowProduct");
+
+alert("🎉 Order Placed Successfully!");
+
+window.location.href="index.html";
+
+}
+
+</script>
+
+</body>
+</html>

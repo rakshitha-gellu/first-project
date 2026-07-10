@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | ElectroMart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="laptop.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <a href="index.html" class="logo">Electro<span>Mart</span></a>
+            
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for TVs, laptops, smartphones...">
+                <button id="searchBtn">Search</button>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="nav-item">
+                    <span>👤</span>
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="nav-item">
+                    <span>❤️</span>
+                    <a href="wishlist.html" onclick=`addToWishlist(${product.id})`>Wishlist</a>
+                    
+                </div>
+                <div class="nav-item">
+                    <span>🛒</span>
+                    <a href="cart.html" id="cartCount">Cart </a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">All Products</a></li>
+                 <li class="dropdown">
+    <a href="#">Categories ▾</a>
+
+    <div class="dropdown-content">
+
+        <a href="Laptops.html">💻 Laptops</a>
+        <a href="mobile.html">📱 Mobiles</a>
+        <a href="tvs.html">📺 TVs</a>
+        <a href="audio.html">🎧 Audio</a>
+        <a href="watch.html">⌚ Smart Watches</a>
+    
+      </div>
+        </li>  
+        <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section-container page-layout">
+        
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <hr style="margin: 15px 0; border: 0; border-top: 1px solid var(--border-color);">
+            
+            <div class="filter-group">
+                <h4>Categories</h4>
+                <label><input type="checkbox" class="categoryFilter" value="laptops"> Laptops</label>
+                <label><input type="checkbox" class="categoryFilter" value="tv"> TVs</label>
+                <label><input type="checkbox" class="categoryFilter" value="mobiles"> Smartphones</label>
+                <label><input type="checkbox" class="categoryFilter" value="audio"> Audio</label>
+                <label><input type="checkbox" class="categoryFilter" value="smart watches"> Smart Watches</label>
+            </div>
+
+            <div class="filter-group">
+                <!--<h4>Price Range</h4>
+                <label>
+        <input type="radio" class="priceFilter" name="price" value="all" checked> All </label>
+                <label><input type="radio" name="price" class="priceFilter" value="200"> Under $200</label>
+                <label><input type="radio" name="price" class="priceFilter" value="500"> $200 - $500</label>
+                <label><input type="radio" name="price" class="priceFilter" value="501"> Over $500</label>-->
+                
+    <h4>Price Range</h4>
+
+    <input
+        type="range"
+        id="priceRange"
+        min="0"
+        max="200000"
+        value="200000"
+        step="1000"
+    >
+
+    <p>Max Price: <span id="priceValue">$200000</span></p>
+
+            </div>
+        </aside>
+
+        <main style="flex: 1;">
+            <h2 class="section-title" style="border: none; margin-bottom: 10px;">Our Collection</h2>
+            <div class="items"></div>
+         
+        </main>
+    </div>
+<div class="box">
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ElectroMart</h3>
+                <p>Your one-stop destination for premium electronics and accessories.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ElectroMart. All rights reserved.</p>
+        </div>
+    </footer>
+       <script src="product.js"></script>
+       <script src="login.js"></script>
+
+</body>
+</html>

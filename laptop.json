@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Apex Pro 15\" Laptop",
+    "price": "₹199999.99",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400"
+  },
+  {
+    "id": 5,
+    "name": "ZenBook Ultra Slim 14\"",
+    "price": "₹568490.99",
+    "image": "https://rukminim1.flixcart.com/image/1536/1536/xif0q/computer/a/q/i/-original-imahg4uspbyzpfpu.jpeg?q=90"
+  },
+  {
+    "id": 9,
+    "name": "Titanium Gaming Rig 17\"",
+    "price": "₹1,89999.99",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400"
+  },
+  {
+    "id": 13,
+    "name": "Chromium WorkBook 13\"",
+    "price": "₹39510.00",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400"
+  },
+  {
+    "id": 17,
+    "name": "Viper Stealth Gaming Laptop",
+    "price": "₹1,450.00",
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=400"
+  },
+  {
+    "id": 25,
+    "name": "BladeUltra 16\" Creator Laptop",
+    "price": "₹2,100.00",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=400"
+  },
+   {
+    "id": 37,
+    "name": "Matrix Air Ultimate 13\"",
+    "category": "laptops",
+    "price": "₹39499.99",
+      
+    "image": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=400"
+  },
+  {
+    "id": 33,
+    "name": "Titan Shield 15\" Touchbook",
+    "category": "laptops",
+    "price": "₹47599.99",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400"
+  },
+  {
+    "id": 29,
+    "name": "OfficePlus Business Laptop",
+    "category": "laptops",
+    "price": "₹75999.99",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400"
+  }
+]
