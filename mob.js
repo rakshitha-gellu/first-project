@@ -56,53 +56,6 @@ document.getElementById("productDetails").innerHTML=`
 
 }
 
-//add to cart
-/*
-function addToCart(id) {
-
-    const product = allMobiles.find(mobile => mobile.id == id);
-
-    if (!product) {
-        alert("Product not found");
-        return;
-    }
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    const existingProduct = cart.find(mobile => mobile.id == id);
-
-    if (existingProduct) {
-
-        existingProduct.quantity++;
-
-    } else {
-
-        cart.push({
-            ...product,
-            quantity: 1
-        });
-
-    }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    updateCartCount();
-
-    alert("Product Added Successfully");
-}
-
-function updateCartCount() {
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    let count = 0;
-
-    cart.forEach(mobile => {
-        count += mobile.quantity;
-    });
-
-    document.getElementById("cartCount").innerHTML = `Cart (${count})`;
-}*/
 
 // Add To Cart
 function addToCart(id) {
