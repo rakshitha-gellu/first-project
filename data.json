@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 31,
     "name": "Apex Pro 15\" Laptop",
     "category": "laptops",
     "price": "75999.99",
@@ -11,7 +11,7 @@
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400"
   },
   {
-    "id": 2,
+    "id": 32,
     "name": "Quantum OLED 55\" 4K TV",
     "category": "tv",
     "price": "15999.99",
@@ -22,7 +22,7 @@
     "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400"
   },
   {
-    "id": 3,
+    "id": 33,
     "name": "Nova 5G Smartphone",
     "category": "mobiles",
     "price": 17999.99,
@@ -33,7 +33,7 @@
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
   },
   {
-    "id": 4,
+    "id": 34,
     "name": "SonicBlast Wireless Headphones",
     "category": "smart watches",
     "price": 1299.99,
@@ -44,7 +44,7 @@
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
   },
   {
-    "id": 5,
+    "id": 35,
     "name": "ZenBook Ultra Slim 14\"",
     "category": "laptops",
         "price": 64999.99,
@@ -55,7 +55,7 @@
         "image": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/U5ubMFBduu-asus-zenbook14-evo-laptop-494352119-i-1-1200wx1200h.jpeg"
   },
   {
-    "id": 6,
+    "id": 36,
     "name": "CinemaMax 65\" LED TV",
     "category": "tv",
     "price": 1799.99,
@@ -66,7 +66,7 @@
     "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=400"
   },
   {
-    "id": 7,
+    "id": 37,
     "name": "AeroPhone X1 Foldable",
     "category": "mobiles",
     "price": 22999.99,
@@ -77,7 +77,7 @@
     "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/mobile/0/3/4/-original-imagz3cuyhmc45pc.jpeg?q=90"
   },
   {
-    "id": 8,
+    "id": 38,
     "name": "PureSound Earbuds Pro",
     "category": "smart watches",
     "price": 999.99,
@@ -88,7 +88,7 @@
     "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400"
   },
   {
-    "id": 9,
+    "id": 39,
     "name": "Titanium Gaming Rig 17\"",
     "category": "laptops",
     "price": 64599.99,
@@ -99,7 +99,7 @@
     "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400"
   },
   {
-    "id": 10,
+    "id": 40,
     "name": "VisionCrystal 43\" Smart TV",
     "category": "tv",
     "price": 15999.99,
@@ -110,7 +110,7 @@
     "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/o/i/w/-original-imaha9h8ahuwtyjp.jpeg?q=70"
   },
   {
-    "id": 11,
+    "id": 41,
     "name": "PixelVibe Lite Smartphone",
     "category": "mobiles",
     "price": 17999.99,
@@ -121,7 +121,7 @@
     "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=400"
   },
   {
-    "id": 12,
+    "id": 42,
     "name": "BoomBox Waterproof Speaker",
     "category": "audio",
     "price": 1399.99,
@@ -132,7 +132,7 @@
     "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400"
   },
   {
-    "id": 13,
+    "id": 43,
     "name": "Chromium WorkBook 13\"",
     "category": "laptops",
     "price": 65000.99,
@@ -143,7 +143,7 @@
     "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400"
   },
   {
-    "id": 14,
+    "id": 44,
     "name": "OmniView 75\" 8K TV",
     "category": "tv",
     "price": 29999.99,
@@ -154,7 +154,7 @@
     "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400"
   },
   {
-    "id": 15,
+    "id": 45,
     "name": "Matrix SecurePro Mobile",
     "category": "mobiles",
     "price": 57450.99,
@@ -165,7 +165,7 @@
     "image": "https://images.unsplash.com/photo-1573148195900-7845dcb9b127?w=400"
   },
   {
-    "id": 16,
+    "id": 46,
     "name": "StudioMaster Soundbar 5.1",
     "category": "audio",
     "price": 2599.99,
@@ -176,7 +176,7 @@
     "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=400"
   },
   {
-    "id": 17,
+    "id": 47,
     "name": "Viper Stealth Gaming Laptop",
     "category": "laptops",
     "price": 67999.99,
@@ -187,7 +187,7 @@
     "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=400"
   },
   {
-    "id": 18,
+    "id": 48,
     "name": "Horizon Curved 50\" TV",
     "category": "tv",
     "price": 19599.99,
@@ -198,7 +198,7 @@
     "image": "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=400"
   },
   {
-    "id": 19,
+    "id": 49,
     "name": "Infinix HOT 30i Phone",
     "category": "mobiles",
     "price": 16899.99,
@@ -209,7 +209,7 @@
     "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/mobile/0/3/4/-original-imagz3cuyhmc45pc.jpeg?q=90"
   },
   {
-    "id": 20,
+    "id": 50,
     "name": "AeroPods ANC Earbuds",
     "category": "smart watches",
     "price": 1599.99,
@@ -220,7 +220,7 @@
     "image": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/hammer/494749475/0/92OCU3FLno-bJaSS8-tb-Hammer-Aura-TWS-ANC-Earbuds-494749475-i-1.jpg"
   },
   {
-    "id": 21,
+    "id": 51,
     "name": "SwiftAir 11\" Notebook",
     "category": "laptops",
     "price": 89699.99,
@@ -231,7 +231,7 @@
     "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400"
   },
   {
-    "id": 22,
+    "id": 52,
     "name": "AuraGlow 32\" Desktop TV",
     "category": "tv",
     "price": 15999.99,
@@ -242,7 +242,7 @@
     "image": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=400"
   },
   {
-    "id": 23,
+    "id": 53,
     "name": "Prime 5G Elite Smartphone",
     "category": "mobiles",
     "price": 29999.99,
@@ -253,7 +253,7 @@
     "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400"
   },
   {
-    "id": 24,
+    "id": 54,
     "name": "RetroVibe Desktop Speakers",
     "category": "audio",
     "price": 1499.99,
@@ -264,7 +264,7 @@
     "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400"
   },
   {
-    "id": 25,
+    "id": 55,
     "name": "BladeUltra 16\" Creator Laptop",
     "category": "laptops",
     "price": 49099.99,
@@ -275,7 +275,7 @@
     "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=400"
   },
   {
-    "id": 26,
+    "id": 56,
     "name": "Starlight Outdoor Projector TV",
     "category": "tv",
    "price": 15999.99,
@@ -286,7 +286,7 @@
     "image": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=400"
   },
   {
-    "id": 27,
+    "id": 57,
     "name": "FocusCore Rugged Phone",
     "category": "mobiles",
     "price": 10999.99,
@@ -297,7 +297,7 @@
     "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=400"
   },
   {
-    "id": 28,
+    "id": 58,
     "name": "EchoSphere Smart Home Speaker",
     "category": "audio",
     "price": 1299.99,
@@ -308,7 +308,7 @@
     "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=400"
   },
   {
-    "id": 29,
+    "id": 59,
     "name": "OfficePlus Business Laptop",
     "category": "laptops",
     "price": 75999.99,
@@ -319,7 +319,7 @@
     "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400"
   },
   {
-    "id": 30,
+    "id": 60,
     "name": "SuperOLED Modular 85\" TV",
     "category": "tv",
     "price": 12499.99,
@@ -330,7 +330,7 @@
     "image": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/tcl/494811834/0/luHotdRtT8-Dt663WUt2-P8L_55-to-85_01.jpg"
   },
   {
-    "id": 31,
+    "id": 61,
     "name": "Apex Dynamic Smartphone",
     "category": "mobiles",
     "price": 29999.99,
@@ -341,7 +341,7 @@
     "image": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/realme/492850931/0/x9t3ymiQQ5-LYNKC5onme-realme-C35-Smartphone-492850931-i-1-1200Wx1200H.jpeg"
   },
   {
-    "id": 32,
+    "id": 62,
     "name": "BassDrop Over-Ear Headset",
     "category": "smart watches",
     "price": 45999.99,
@@ -352,7 +352,7 @@
     "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400"
   },
   {
-    "id": 33,
+    "id": 63,
     "name": "Titan Shield 15\" Touchbook",
     "category": "laptops",
     "price": 47599.99,
@@ -363,7 +363,7 @@
     "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400"
   },
   {
-    "id": 34,
+    "id": 64,
     "name": "VividSync 58\" Smart TV",
     "category": "tv",
     "price": 39999.99,
@@ -374,7 +374,7 @@
     "image": "https://images.unsplash.com/photo-1571415060716-baff5f717c37?w=400"
   },
   {
-    "id": 35,
+    "id": 65,
     "name": "Pulse 4G Budget Mobile",
     "category": "mobiles",
     "price": 15999.99,
@@ -385,7 +385,7 @@
     "image": "https://images.unsplash.com/photo-1564424224827-cd24b8915874?w=400"
   },
   {
-    "id": 36,
+    "id": 66,
     "name": "StudioPro XLR Podcast Mic",
     "category": "audio",
     "price": 1399.99,
@@ -396,7 +396,7 @@
     "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400"
   },
   {
-    "id": 37,
+    "id": 67,
     "name": "UltraSlim Frame 40\" TV",
     "category": "tv",
     "price": 12999.99,
@@ -407,7 +407,7 @@
     "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400"
   },
   {
-    "id": 39,
+    "id": 68,
     "name": "Horizon Alpha Flagship Phone",
     "category": "mobiles",
     "price": 24699.99,
@@ -418,7 +418,7 @@
     "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400"
   },
   {
-    "id": 40,
+    "id": 69,
     "name": "AcousticStage Wireless Soundbar",
     "category": "audio",
     "price": 1299.99,
