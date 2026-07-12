@@ -89,57 +89,6 @@ function openProduct(id) {
     window.location.href = `details.html?id=${id}`;
 
 }
-//add to cart
-/*
-function addToCart(id) {
-
-    // Check login
-    const loggedInUser = localStorage.getItem("loggedInUser");
-
-    if (!loggedInUser) {
-        alert("Please login to add products to your cart.");
-        window.location.href = "login.html";
-        return;
-    }
-
-    const product = allProducts.find(item => item.id == id);
-
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-    const exists = cart.find(item => item.id == id);
-
-    if (exists) {
-        exists.quantity++;
-    } else {
-        cart.push({
-            ...product,
-            quantity: 1
-        });
-    }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    updateCartCount();
-
-    alert("Added To Cart");
-}
-function updateCartCount(){
-
-let cart=JSON.parse(localStorage.getItem("cart")) || [];
-
-let count=0;
-
-cart.forEach(item=>{
-
-count+=item.quantity;
-
-});
-
-document.getElementById("cartCount").innerHTML=`Cart (${count})`;
-
-}
-
-updateCartCount();*/
 
 //wishlist
 function addToWishlist(id) {
