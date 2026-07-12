@@ -12,7 +12,7 @@ function displayProducts(products) {
 
     const cards = document.getElementById("cards");
 
-    cards.innerHTML += "";
+    cards.innerHTML = "";
 
     products.forEach(product => {
 
