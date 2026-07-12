@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 70,
     "name": "Sony",
     "category": "Wireless Headphones",
     "price":" ₹24999",
@@ -9,7 +9,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/u/v/k/-enriched-transparent-original-imahdhkptz4hfmgz.png?q=70"
   },
   {
-    "id": 2,
+    "id": 71,
     "name": "JBL",
     "category": "Bluetooth Speaker",
     "price": "₹8999",
@@ -18,7 +18,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/r/9/e/-enriched-transparent-original-imahbab4jhmzmbxa.png?q=70"
   },
   {
-    "id": 3,
+    "id": 72,
     "name": "boAt",
     "category": "TWS Earbuds",
     "price": "₹1999",
@@ -27,7 +27,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/v/f/m/-original-imagz5z4cknamu9d.jpeg?q=70"
   },
   {
-    "id": 4,
+    "id": 73,
     "name": "Apple",
     "category": "TWS Earbuds",
     "price": "₹24999",
@@ -36,7 +36,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/3/b/c/-original-imahftffyzcx5ksy.jpeg?q=70"
   },
   {
-    "id": 5,
+    "id": 74,
     "name": "Samsung",
     "category": "TWS Earbuds",
     "price": "₹11999",
@@ -45,7 +45,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/p/u/sm-r410n-galaxy-buds-core-black-samsung-original-imahfrh8bbnhjrzg.jpeg?q=70"
   },
   {
-    "id": 6,
+    "id": 75,
     "name": "Bose",
     "category": "Wireless Headphones",
     "price": "₹27999",
@@ -54,7 +54,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/r/7/-original-imahfcgwgjrcgjqy.jpeg?q=70"
   },
   {
-    "id": 7,
+    "id": 76,
     "name": "Sennheiser",
     "category": "Wireless Headphones",
     "price": "₹29999",
@@ -63,7 +63,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/n/r/z/-original-imah4rkt9gjjyzry.jpeg?q=70"
   },
   {
-    "id": 8,
+    "id": 77,
     "name": "OnePlus",
     "category": "Neckband",
     "price": "₹2499",
@@ -72,7 +72,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/7/n/o/-original-imahfsg7chmgrugu.jpeg?q=70"
   },
   {
-    "id": 9,
+    "id": 78,
     "name": "Realme",
     "category": "Bluetooth Speaker",
     "price": "₹3499",
@@ -81,7 +81,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/v/3/n/-original-imahm9gt4ydbnjcp.jpeg?q=70"
   },
   {
-    "id": 10,
+    "id": 79,
     "name": "Noise",
     "category": "TWS Earbuds",
     "price": "₹1799",
@@ -90,7 +90,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/o/i/z/-original-imagxgjxznkfatsh.jpeg?q=70"
   },
   {
-    "id": 11,
+    "id": 80,
     "name": "Boult",
     "category": "TWS Earbuds",
     "price": "₹1499",
@@ -99,7 +99,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/a/c/-enriched-transparent-original-imahebzzqs5fspcv.png?q=70"
   },
   {
-    "id": 12,
+    "id": 81,
     "name": "Philips",
     "category": "Soundbar",
     "price": "₹15999",
@@ -108,7 +108,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/n/x/q/-enriched-transparent-original-imahahxrgzzzabcf.png?q=70"
   },
   {
-    "id": 13,
+    "id": 82,
     "name": "Sony",
     "category": "Soundbar",
     "price": "₹22999",
@@ -117,7 +117,7 @@
     "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/headphone/y/x/y/-enriched-transparent-original-imagz2d8fkkf5vme.png?q=70"
   },
   {
-    "id": 14,
+    "id": 83,
     "name": "JBL",
     "category": "Soundbar",
     "price": "₹19999",
@@ -126,7 +126,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/soundbar/c/5/g/jblsb550blkin-jbl-original-imahhhj9r9nzh8us.jpeg?q=70"
   },
   {
-    "id": 15,
+    "id": 84,
     "name": "boAt",
     "category": "Bluetooth Speaker",
     "price": "₹2999",
@@ -135,7 +135,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/d/l/u/-original-imahezerbfsxhgez.jpeg?q=70"
   },
   {
-    "id": 16,
+    "id": 85,
     "name": "Zebronics",
     "category": "Home Theater",
     "price": "₹7999",
@@ -144,7 +144,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/7/m/j/-original-imah4gkh2bvpq2er.jpeg?q=70"
   },
   {
-    "id": 17,
+    "id": 86,
     "name": "Logitech",
     "category": "Computer Speakers",
     "price": "₹999",
@@ -153,7 +153,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/laptop-desktop-speaker/z/6/w/spk-0008-frontech-original-imahhzq8nhwsknyr.jpeg?q=70"
   },
   {
-    "id": 18,
+    "id": 87,
     "name": "Skullcandy",
     "category": "Wireless Headphones",
     "price": "₹7999",
@@ -162,7 +162,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/6/r/r/-original-imah97hjcjjkzyrs.jpeg?q=70"
   },
   {
-    "id": 19,
+    "id": 88,
     "name": "Anker",
     "category": "Bluetooth Speaker",
     "price": "₹4999",
@@ -171,7 +171,7 @@
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/i/s/z/-original-imahd2f8dt3hmn8d.jpeg?q=70"
   },
   {
-    "id": 20,
+    "id": 89,
     "name": "Realme",
     "category": "TWS Earbuds",
     "price": "₹7999",
